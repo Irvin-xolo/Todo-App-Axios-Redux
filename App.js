@@ -13,7 +13,7 @@ import TaskList from './src/components/TaskList';
 
 const store = createStore(rootReducer, applyMiddleware(thunk));
 
-axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com'; // Configura la URL base de la API
+axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com'; 
 
 const Stack = createStackNavigator();
 
